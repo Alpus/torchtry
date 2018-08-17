@@ -1,0 +1,11 @@
+version: '2.3'
+
+services:
+  torchtry:
+    build: .
+    volumes:
+     - .:/workdir
+    ipc: host
+    ports:
+    - "8888:8888"
+    runtime: nvidia

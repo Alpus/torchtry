@@ -1,0 +1,11 @@
+# IDE and jupyter
+.idea/
+.ipynb_checkpoints/
+
+# torchtry work files
+torchtry_storage/
+
+# python work files
+*__pycache__
+*.pyc
+
